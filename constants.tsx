@@ -162,5 +162,37 @@ export const ARTISTS: Record<string, ArtistConfig> = {
     locationPara: 'Based in Indiranagar, Maya travels globally for high-fashion editorial shoots.',
     testimonials: [{ name: 'Karan J.', text: 'Absolute visionary artist.', rating: 5 }],
     whatsappNumber: '916665554443'
+  },
+  'tosif-arman-makeup-gayaji-bihar': {
+    slug: 'tosif-arman-makeup-gayaji-bihar',
+    name: 'Tosif Arman',
+    city: 'Gayaji, Bihar',
+    specialty: 'Makeup Artist',
+    personality: 'authentic',
+    seoTitle: 'Makeup Artist in Gayaji, Bihar – Tosif Arman',
+    seoDescription: 'Professional makeup services in Gayaji, Bihar. Natural and elegant looks by Tosif Arman.',
+    theme: {
+      primary: 'bg-[#F5F5DC]',
+      secondary: 'bg-[#8B4513]',
+      accent: 'text-[#DAA520]',
+      bg: 'bg-[#F5F5DC]',
+      text: 'text-[#2F4F2F]',
+      fontHeading: 'font-serif',
+      fontBody: 'font-serif-body'
+    },
+    sectionOrder: [SectionType.HERO, SectionType.GALLERY, SectionType.BEFORE_AFTER, SectionType.PRICING, SectionType.ABOUT, SectionType.BROCHURE, SectionType.TESTIMONIALS, SectionType.LOCATION_SEO, SectionType.CONTACT],
+    pricing: defaultPricing,
+    brochureUrl,
+    images: {
+      hero: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800',
+      about: 'https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=800',
+      gallery: defaultGallery,
+      before: 'https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?auto=format&fit=crop&q=80&w=800',
+      after: 'https://images.unsplash.com/photo-1526045612212-70caf35c11bc?auto=format&fit=crop&q=80&w=800'
+    },
+    aboutText: 'Tosif Arman brings authentic beauty to Gayaji, Bihar with a focus on natural and elegant looks.',
+    locationPara: 'Serving the local community in Gayaji and surrounding areas in Bihar.',
+    testimonials: [{ name: 'Local Client', text: 'Amazing work!', rating: 5 }],
+    whatsappNumber: '919876543211'
   }
 };
