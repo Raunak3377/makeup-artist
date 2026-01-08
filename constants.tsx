@@ -168,7 +168,7 @@ export const ARTISTS: Record<string, ArtistConfig> = {
     name: 'Tosif Arman',
     city: 'Gayaji, Bihar',
     specialty: 'Makeup Artist',
-    personality: 'authentic',
+    personality: 'avantgarde',
     seoTitle: 'Makeup Artist in Gayaji, Bihar – Tosif Arman',
     seoDescription: 'Professional makeup services in Gayaji, Bihar. Natural and elegant looks by Tosif Arman.',
     theme: {
